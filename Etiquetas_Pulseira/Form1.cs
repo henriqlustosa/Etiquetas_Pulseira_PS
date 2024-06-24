@@ -30,7 +30,7 @@ namespace Etiquetas_Nova_Versao
 
 
 
-        int startXEsquerda = 125;
+        int startXEsquerda = 275;
      
         public class Paciente
         {
@@ -109,16 +109,25 @@ namespace Etiquetas_Nova_Versao
 
                    // PrintDialog printDialog1 = new PrintDialog();
 //printDialog1.Document = printDocument1;  
-                  
-                   // printDocument1.PrinterSettings.PrinterName = "PrinterPulseira";
+                   // int widthInHundredthsOfInch = (int)(23 / 25.4 * 100);
+                  // int heightInHundredthsOfInch = (int)(270 / 25.4 * 100);
+                   printDocument1.PrinterSettings.PrinterName = "PrintPulseira";
+                    // Set the custom paper size
+                 //   printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("Custom", widthInHundredthsOfInch, heightInHundredthsOfInch);
 
-                    printDocument1.PrinterSettings.PrinterName = "Impressora";
-                        
-                   
-                        
-                           
-                        
-                          
+                  
+
+
+                
+
+
+                    // Set margins to zero if not already set
+                   // printDocument1.DefaultPageSettings.Margins = new System.Drawing.Printing.Margins(0, 0, 0, 0);
+
+                    // Optional: Set printable area if necessary
+                   // printDocument1.OriginAtMargins = false; // Set to true if you want the origin to be at margins     
+
+                    //DialogResult result = printDialog1.ShowDialog();    
                       
                                 printDocument1.Print();
                          
@@ -183,7 +192,7 @@ namespace Etiquetas_Nova_Versao
             //DateTime dt = DateTime.Now;
             //string data = dt.ToString("g");  
 
-            e.PageSettings.PaperSize = new System.Drawing.Printing.PaperSize("Custom2", 30, 240);//900 é a largura da página
+           // e.PageSettings.PaperSize = new System.Drawing.Printing.PaperSize("Custom2", 30, 240);//900 é a largura da página
             //printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("Custom2", 500, 1000);
            // printDialog1.PrinterSettings.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("Custom2", 500, 1000);
             Graphics g = e.Graphics;
@@ -219,10 +228,10 @@ namespace Etiquetas_Nova_Versao
 
             // Create coordinates for upper-left corner.
 
-           int x =5; // antes -8
+           int x =120; // antes -8
             int y = 20;
 
-            int width = 100; // com 180 funciona corretamente na maquina 
+            int width = 150; // com 180 funciona corretamente na maquina 
             int height = 30; // 40 antes
 
             // Draw image to screen.

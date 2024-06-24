@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etiquetas_Nova_Versao", "Etiquetas_Nova_Versao.csproj", "{1FD68AA1-2B86-474B-8A68-B18566D79514}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EtiquetaPulseira", "..\EtiquetaPulseira\EtiquetaPulseira.vdproj", "{29134BB3-6940-461E-8CA4-1ABC4AE6DCF9}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Etiqueta", "..\Etiqueta\Etiqueta.vdproj", "{5B15609B-DC49-4516-BAA9-0E63D43BD0E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,10 @@ Global
 		{1FD68AA1-2B86-474B-8A68-B18566D79514}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1FD68AA1-2B86-474B-8A68-B18566D79514}.Release|x64.ActiveCfg = Release|x64
 		{1FD68AA1-2B86-474B-8A68-B18566D79514}.Release|x64.Build.0 = Release|x64
-		{29134BB3-6940-461E-8CA4-1ABC4AE6DCF9}.Debug|Any CPU.ActiveCfg = Debug
-		{29134BB3-6940-461E-8CA4-1ABC4AE6DCF9}.Debug|x64.ActiveCfg = Debug
-		{29134BB3-6940-461E-8CA4-1ABC4AE6DCF9}.Release|Any CPU.ActiveCfg = Release
-		{29134BB3-6940-461E-8CA4-1ABC4AE6DCF9}.Release|x64.ActiveCfg = Release
+		{5B15609B-DC49-4516-BAA9-0E63D43BD0E1}.Debug|Any CPU.ActiveCfg = Debug
+		{5B15609B-DC49-4516-BAA9-0E63D43BD0E1}.Debug|x64.ActiveCfg = Debug
+		{5B15609B-DC49-4516-BAA9-0E63D43BD0E1}.Release|Any CPU.ActiveCfg = Release
+		{5B15609B-DC49-4516-BAA9-0E63D43BD0E1}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
