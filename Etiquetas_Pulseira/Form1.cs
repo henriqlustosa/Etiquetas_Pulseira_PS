@@ -87,8 +87,8 @@ namespace Etiquetas_Nova_Versao
                 printDocument1.DefaultPageSettings.Landscape = true;
 
                 // Set the printer name here. Make sure it matches an installed printer.
-                //printDocument1.PrinterSettings.PrinterName = "PrintPulseira";
-                printDocument1.PrinterSettings.PrinterName = "HP TI";
+                printDocument1.PrinterSettings.PrinterName = "PrinterPulPSO";
+                //printDocument1.PrinterSettings.PrinterName = "HP TI";
                 // Optionally, show a PrintDialog if you want the user to confirm
                 // printDialog1.Document = printDocument1;
                 // if (printDialog1.ShowDialog() != DialogResult.OK) return;
