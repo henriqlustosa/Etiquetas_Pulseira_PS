@@ -45,7 +45,7 @@
             this.btImprimir.Name = "btImprimir";
             this.btImprimir.Size = new System.Drawing.Size(75, 23);
             this.btImprimir.TabIndex = 0;
-            this.btImprimir.Text = "Imprimir";
+            this.btImprimir.Text = "IMPRIMIR";
             this.btImprimir.UseVisualStyleBackColor = true;
             this.btImprimir.Click += new System.EventHandler(this.btImprimir_Click);
             // 
@@ -60,11 +60,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(128, 120);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(202, 120);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.Size = new System.Drawing.Size(33, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Informe RH";
+            this.label1.Text = "RH -";
             // 
             // lblError
             // 
@@ -78,11 +79,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(254, 47);
+            this.label3.Location = new System.Drawing.Point(112, 42);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 25);
+            this.label3.Size = new System.Drawing.Size(415, 25);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Pulseira";
+            this.label3.Text = "PULSEIRA DO PRONTO ATENDIMENTO";
             // 
             // label4
             // 
@@ -91,7 +92,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 13);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Versão 5.0.0 (24/01/2025)";
+            this.label4.Text = "Versão 1.0.0 (10/07/2025)";
             // 
             // printDialog1
             // 
@@ -105,6 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(652, 391);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -114,7 +116,7 @@
             this.Controls.Add(this.btImprimir);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Etiquetas";
+            this.Text = "PULSEIRA DO PS";
             this.ResumeLayout(false);
             this.PerformLayout();
 

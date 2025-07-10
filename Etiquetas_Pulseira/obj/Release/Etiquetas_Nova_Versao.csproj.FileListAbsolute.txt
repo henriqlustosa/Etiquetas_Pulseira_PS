@@ -39,3 +39,13 @@ G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira\Etiquetas_
 G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.Form1.resources
 G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.Properties.Resources.resources
 G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.csproj.GenerateResource.Cache
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.exe
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.pdb
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\bin\Release\Etiquetas_Nova_Versao.exe
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\bin\Release\Etiquetas_Nova_Versao.pdb
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\bin\Release\Neodynamic.SDK.Barcode.dll
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\bin\Release\Neodynamic.SDK.Barcode.xml
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\ResolveAssemblyReference.cache
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.Form1.resources
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.Properties.Resources.resources
+G:\OneDrive - Default Directory\OneDrive - rede.sp\Workspace_Pulseira_PS\Etiquetas_Pulseira\Etiquetas_Pulseira\obj\Release\Etiquetas_Nova_Versao.csproj.GenerateResource.Cache

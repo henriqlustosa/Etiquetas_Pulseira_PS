@@ -15,13 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_454010F6F781E60945A2BAF0E6B8A6CB"
-        "OwnerKey" = "8:_741D284430D44EEB93B2C96410987D69"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6640428B03B60841F6FCBD9FC9A1B77C"
+        "MsmKey" = "8:_2F0638D4337430541C527345ED4C3DB4"
         "OwnerKey" = "8:_741D284430D44EEB93B2C96410987D69"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,7 +27,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8C2E19342C8A4E97B6540A558C99E799"
+        "MsmKey" = "8:_9662B6F7DBE3325218781BB4097FD40B"
+        "OwnerKey" = "8:_741D284430D44EEB93B2C96410987D69"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D4EEAABBD0764B1884FD4CD510CD6BCB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,25 +46,25 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FC6F4A80B21F0F7A119B2DE8A51D709D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_454010F6F781E60945A2BAF0E6B8A6CB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_741D284430D44EEB93B2C96410987D69"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6640428B03B60841F6FCBD9FC9A1B77C"
+        "OwnerKey" = "8:_2F0638D4337430541C527345ED4C3DB4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9662B6F7DBE3325218781BB4097FD40B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FC6F4A80B21F0F7A119B2DE8A51D709D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -85,6 +85,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -101,6 +122,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -130,14 +172,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_454010F6F781E60945A2BAF0E6B8A6CB"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2F0638D4337430541C527345ED4C3DB4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:GenCode128, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_454010F6F781E60945A2BAF0E6B8A6CB"
+                    "_2F0638D4337430541C527345ED4C3DB4"
                     {
                     "Name" = "8:GenCode128.dll"
                     "Attributes" = "3:512"
@@ -161,14 +203,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6640428B03B60841F6FCBD9FC9A1B77C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9662B6F7DBE3325218781BB4097FD40B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json.Compact, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_6640428B03B60841F6FCBD9FC9A1B77C"
+                    "_9662B6F7DBE3325218781BB4097FD40B"
                     {
                     "Name" = "8:Newtonsoft.Json.Compact.dll"
                     "Attributes" = "3:512"
@@ -192,10 +234,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C2E19342C8A4E97B6540A558C99E799"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D4EEAABBD0764B1884FD4CD510CD6BCB"
             {
-            "SourcePath" = "8:..\\Etiquetas_Pulseira\\printer_78349.ico"
-            "TargetName" = "8:printer_78349.ico"
+            "SourcePath" = "8:..\\Etiquetas_Pulseira\\conta-gotas.ico"
+            "TargetName" = "8:conta-gotas.ico"
             "Tag" = "8:"
             "Folder" = "8:_43EE8A8F1CEB4EC0A6F4C67E032E5EA5"
             "Condition" = "8:"
@@ -300,19 +342,19 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Etiqueta"
         "ProductCode" = "8:{62FA3516-44E0-42F3-B8D7-E840D2A5672E}"
-        "PackageCode" = "8:{3148DEBF-D32B-4F7B-81F0-CB457E414128}"
+        "PackageCode" = "8:{3F4BB32A-7CAE-498A-97B8-636B4264C3AD}"
         "UpgradeCode" = "8:{125257FA-5FD8-4F46-BF07-01969D18512C}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:HSPM"
+        "ProductVersion" = "8:1.1.0"
+        "Manufacturer" = "8:HSPM_SP"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Etiqueta"
+        "Title" = "8:PULSEIRA_PS_HSPM"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:HSPM"
+        "ARPCONTACT" = "8:HSPM_SP_HENRIQUE_LUSTOSA"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -419,9 +461,9 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2E67A8FAC5BB48069C38483976994353"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B98740898E344A6CAD1A78FC2180F50A"
             {
-            "Name" = "8:Etiqueta"
+            "Name" = "8:PULSEIRA_PS"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -430,7 +472,7 @@
             "Target" = "8:_741D284430D44EEB93B2C96410987D69"
             "Folder" = "8:_31F6F40023504FBF8EED5D131E6E8E1D"
             "WorkingFolder" = "8:_43EE8A8F1CEB4EC0A6F4C67E032E5EA5"
-            "Icon" = "8:_8C2E19342C8A4E97B6540A558C99E799"
+            "Icon" = "8:_D4EEAABBD0764B1884FD4CD510CD6BCB"
             "Feature" = "8:"
             }
         }

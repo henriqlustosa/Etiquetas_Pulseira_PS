@@ -24,12 +24,12 @@ namespace Etiquetas_Nova_Versao
         private string error = "";
 
         // Layout positioning
-        private readonly int starty = 20;  // Vertical offset for text
-        private readonly int startXEsquerda = 275;  // Horizontal offset for text
+        private readonly int starty = 5;  // Vertical offset for text
+        private readonly int startXEsquerda = 210;  // Horizontal offset for text
 
         // Example: wristband/pulseira size in mm
         private const int LabelWidthMm = 23;
-        private const int LabelHeightMm = 270;
+        private const int LabelHeightMm = 269;
 
         public class Paciente
         {
@@ -87,7 +87,7 @@ namespace Etiquetas_Nova_Versao
                 printDocument1.DefaultPageSettings.Landscape = true;
 
                 // Set the printer name here. Make sure it matches an installed printer.
-                printDocument1.PrinterSettings.PrinterName = "PrinterPulPSO";
+                printDocument1.PrinterSettings.PrinterName = "PrinterPulPSA";
                 //printDocument1.PrinterSettings.PrinterName = "HP TI";
                 // Optionally, show a PrintDialog if you want the user to confirm
                 // printDialog1.Document = printDocument1;
@@ -221,7 +221,7 @@ namespace Etiquetas_Nova_Versao
             // Make sure you dispose the barcode image after drawing
             using (Image barcodeImage = Code128Rendering.MakeBarcodeImage(paciente.cd_prontuario, 1, true))
             {
-                int x = 120;
+                int x = 60;
                 int y = 30;
                 int width = 150;
                 int height = 30;
@@ -237,13 +237,13 @@ namespace Etiquetas_Nova_Versao
             // Tip: You might want to measure your strings or further refine positions
             Font regularFont = new Font("Arial", 8, FontStyle.Regular);
             Font boldFont = new Font("Arial", 8, FontStyle.Bold);
-
-            g.DrawString("PRONTUARIO: " + prontuario, regularFont, Brushes.Black, startXEsquerda, starty);
-            g.DrawString("PACIENTE: " + nomePaciente, boldFont, Brushes.Black, startXEsquerda, starty + 15);
+            g.DrawString("PRONTO ATENDIMENTO", boldFont, Brushes.Black, startXEsquerda, starty);
+            g.DrawString("PRONTUARIO: " + prontuario, regularFont, Brushes.Black, startXEsquerda, starty + 15);
+            g.DrawString("PACIENTE: " + nomePaciente, boldFont, Brushes.Black, startXEsquerda, starty + 30);
             g.DrawString("NASC.: " + dataNascimento,
-                         regularFont, Brushes.Black, startXEsquerda, starty + 30);
-            g.DrawString("MAE: " + nomeMae,
                          regularFont, Brushes.Black, startXEsquerda, starty + 45);
+            g.DrawString("MAE: " + nomeMae,
+                         regularFont, Brushes.Black, startXEsquerda, starty + 60);
         }
 
         private void txbRh_KeyPress(object sender, KeyPressEventArgs e)
@@ -253,6 +253,8 @@ namespace Etiquetas_Nova_Versao
                 btImprimir_Click(sender, e);
             }
         }
+
+        
 
         // If you still need admin rights to set registry entries, consider:
         // 1) Checking if user is admin
